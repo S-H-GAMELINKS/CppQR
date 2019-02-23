@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <qrcode-reader @init="onInit" @decode="onDecode"></qrcode-reader>
-        <p>{{content}}<p>
+        <p>{{content}}</p>
     </div>
 </template>
 
